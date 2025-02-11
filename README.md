@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in Dockerfiles: using a non-specific base image and Python version. This can cause build failures in different environments because the contents of `ubuntu:latest` are subject to change.  The `Dockerfile_fixed` provides a solution.
